@@ -18,8 +18,8 @@ jobs:
           java-version: '17'
 
       - uses: subosito/flutter-action@v2
-        with:
-          flutter-version: 'stable'
+  with:
+    flutter-version: '3.19.6'
 
       - run: flutter pub get
       - run: flutter build apk --release
